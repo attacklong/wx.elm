@@ -1,0 +1,15 @@
+	<view class="cart">
+		        <view class="title">其他</view> 
+            <view class="title1">当前订单</view>                                                                             <view class="order">
+            <image class="a" src="../../imgs/2.JPG"></image>
+            <view class="name">韩式红锅饭><text class="t1">预计10:38送达</text></view>
+            <view class="text">娃娃菜等6件商品￥12</view>
+            </view>     
+            <view class="images">
+            <image src="../../imgs/order1.png"></image>
+            </view>  
+            <button>确认送达</button> 
+            <view class="order">
+            <view class="title2">查看三个月前的外卖订单</view>
+            </view>                
+	</view>

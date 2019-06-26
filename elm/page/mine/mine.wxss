@@ -1,0 +1,89 @@
+.header {
+	background:#1E90FF;
+	padding: 30rpx;
+}
+.header .avatar {
+	display: block;
+	margin: 0 auto;
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 50%;
+	border: 2px solid #1E90FF;
+}
+.header .nickname {
+	color: #000;
+	font-size: 22px;
+	line-height: 2.4;
+	text-align: center;
+}
+.section {
+	padding: 0;
+	color: #2e2e2e;
+	font-size: 30rpx;
+}
+.section .line {
+	margin-left: 30rpx;
+	padding-right: 30rpx;
+	line-height: 3;
+	border-bottom: 1px solid #efefef;
+}
+.section .line:last-child {
+	border-bottom: none;
+}
+.section .line:before {
+	content: '>';
+	float: right;
+	color: #aaa;
+	margin-left: 20rpx;
+}
+.section .line .tl {
+	float: right;
+	color: #aaa;
+}
+.section1 {
+	padding: 0;
+  background:white; 
+  font-size: 40rpx;
+  width:100%;
+  margin-top:30rpx;
+  margin-bottom:20rpx;
+  height:150rpx;
+  
+	border-bottom: 1px solid #efefef;
+}
+.a1{
+  width:20%;
+  float:left;
+  margin-top:20rpx;
+  margin-left:12%;
+}
+.a1 .t{
+	color: #1E90FF;
+}
+.a2{
+  width:20%;
+  float:left;
+  margin-top:20rpx;
+  margin-left:13%;
+}
+.a2 .t{
+  color:red;
+  margin-left:20rpx;
+}
+.a2 .t2{
+  float:left;
+  margin-left:10rpx;
+}
+.a3{
+  width:20%;
+  float:left;
+  margin-top:15rpx;
+  margin-left:12%;
+}
+.a3 .t{
+  color: lightsalmon;
+}
+.a3 .t2{
+  float:left;
+  margin-left:10rpx;
+}

@@ -1,0 +1,27 @@
+<view class="page-body">
+ <view class="search" bindtap="tapSearch">
+      
+			<image class="icon" src="/imgs/index/icon_search.png"/>
+			<i class="fa fa-home"></i>
+			小区/写字楼/学校等
+		</view>
+  <view class="page-section page-section-gap">
+    <map
+      id="myMap"
+      style="width: 100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    ></map>
+  </view>
+ 
+  	<view class="section" bindtap="mape">
+    <text class="t1">收货地址:</text>
+		<view class="judgement"><text class="t">青岛工学院</text></view>
+    <view class=" judgement">三宿3n326</view>
+    <view class="judgement"><text class="tl">张（先生） 16725284093</text></view>
+    <view class="line judgement">添加新地址</view>
+	</view>
+</view>

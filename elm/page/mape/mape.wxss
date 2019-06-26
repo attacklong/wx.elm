@@ -1,0 +1,62 @@
+/* pages/mape/mape.wxss */
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  margin-top:10px;
+}
+
+.page-body-button {
+  margin-top:20px;
+  margin-bottom: 30rpx;
+}
+ .icon {
+	width: 40rpx;
+	height: 40rpx;
+	vertical-align: top;
+}
+.search {
+	-webkit-flex: 1;
+	color: #888;
+	font-size: 30rpx;
+	line-height: 40rpx;
+	padding: 10rpx;
+	border-radius: 30rpx;
+	background: #fff;
+  margin-top:10px;
+  text-align: center;
+  width:90%;
+  margin-left:5%;
+	/*border-bottom: 1rpx solid #aaa;*/
+}
+.section {
+	color: #2e2e2e;
+	font-size: 30rpx;
+  margin-top:20px;
+}
+.section .line {
+	padding-right: 30rpx;
+	line-height: 1;
+  color: dodgerblue;
+	border-top: 1px solid #efefef;
+}
+.section .judgement {
+	margin-left: 30rpx;
+	padding-right: 30rpx;
+	line-height: 2;
+  
+}
+.section .line:last-child {
+	border-bottom: none;
+}
+.section .line:before {
+	content: '>';
+	float: right;
+	color: #aaa;
+	margin-left: 20rpx;
+}
+.section .judgement .tl {
+	color: #aaa;
+}
+.ti{
+  color:#aaa;
+}

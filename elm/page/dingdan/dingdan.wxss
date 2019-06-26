@@ -1,0 +1,62 @@
+/* page/dingdan/dingdan.wxss */
+.cart{
+  width:90%;
+  margin-left:5%;
+}
+.cart .title{
+  float:right;
+  margin-top:-20px;
+  font-size:15px;
+}
+.cart .title1{
+  font-size:20px;
+  margin-top:20px;
+}
+.order{
+  margin-top:10px;
+}
+.order .a{
+  float:left;
+  width: 50px;
+  height:50px;
+}
+.order .name{
+  float:left;
+  margin-left:10px;
+  font-size:15px;
+}
+.order .name .t1{
+  margin-left:50px;
+  color: blue;
+  font-size:12px;
+}
+.order .text{
+  float:left;
+  margin-top:10px;
+  font-size:12px;
+  color:#aaa;
+  margin-left:10px;
+}
+.cart .images image{
+  float:left;
+  height:150px;
+  width:100%;
+  margin-top:10px;
+  }
+
+  button{
+    float:right;
+    margin-top:10px;
+    width:100px;
+    height:40px;
+    text-size:20px;
+    color:blue;
+  }
+
+  .title2{
+    float:left;
+    margin-top:40px;
+    margin-left:20%;
+    font-size:15px;
+    color: gray;
+  }
